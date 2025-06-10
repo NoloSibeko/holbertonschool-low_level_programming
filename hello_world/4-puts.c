@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point of the program
+ *
+ * Description: Prints a specific string using the puts function.
  *
  * Return: Always 0 (Success)
  */
