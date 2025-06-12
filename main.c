@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-void reset_to_98(int *n) { *n = 98; }
+void reset_to_98(int *n);
 
-int main(void) {
-    int x = 123;
-    printf("Before reset: %d\n", x);
+int main(void)
+{
+    int x = 42;
+    printf("Before: %d\n", x);
     reset_to_98(&x);
-    printf("After reset: %d\n", x);
+    printf("After: %d\n", x);
     return 0;
 }
